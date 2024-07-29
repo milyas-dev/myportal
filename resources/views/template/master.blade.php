@@ -11,7 +11,7 @@
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="index.html">
+                        <a href="{{ route('index')}}">
                             <span class="logo-default"><img src="{{ asset('assets/images/logo.png') }}" alt="" width="250" height="auto"></span>
                             <span class="logo-dark"><img src="{{ asset('assets/images/logo.png') }}" alt="" width="250" height="auto"></span>
                         </a>
@@ -38,12 +38,12 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="#">Support</a>
+                                    <li><a href="{{ route('index')}}">Home</a></li>
+                                    <li class="dropdown"><a href="{{ route('index')}}">Support</a>
                                         <ul class="dropdown-menu">
-                                            <li class=""><a href="#">HelpDesk</a>
+                                            <li class=""><a href="{{ route('index')}}">HelpDesk</a>
                                             </li>
-                                            <li class=""><a href="#">Documentation</a>
+                                            <li class=""><a href="{{ route('index')}}">Documentation</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -60,7 +60,7 @@
         <section id="page-title" class="text-light" data-bg-parallax="{{ asset('assets/images/banner.jpg') }}">
             <div class="container">
                 <div class="page-title">
-                    <h1>Website, Landing Page dan Hosting</h1>
+                    <h1>Bangun Online Presence Anda <br> "Website, Landing Page dan Manajemen"</h1>
                 </div>
             </div>
         </section>
@@ -69,7 +69,7 @@
             <div class="container">
                 <div class="heading-text heading-section text-center">
                     <h4>Layanan kami</h4>
-                    <p>Pelajar yang memerlukan bantuan untuk tugas pembuatan website aplikasi, Pemilik usaha yang ingin memiliki website agar menaikkan branding, silahkan pilih layanan kami yang tertera dibawah ini</p>
+                    <p>Jika Anda seorang pelajar yang membutuhkan bantuan dalam pembuatan website atau aplikasi, atau pemilik usaha yang ingin meningkatkan branding melalui website, kami menawarkan berbagai layanan yang dapat memenuhi kebutuhan Anda. Silakan pilih layanan yang sesuai dengan kebutuhan Anda dari daftar yang tertera di bawah ini.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
@@ -79,7 +79,7 @@
 
                             </div>
                             <h3>Tugas Pembuatan Website</h3>
-                            <p>Kami buatkan dan jelaskan proses nya bertahap bagaimana aplikasi website dibuat</p>
+                            <p>Kami Membantu Anda Membangun Website Aplikasi dari Awal hingga Selesai, Dengan bimbingan proses yang Jelas.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -88,7 +88,7 @@
                                 <a href="#" data-bs-target="#modaldua" data-bs-toggle="modal"><i class="fa fa-desktop"></i></a>
                             </div>
                             <h3>Portal Website Usaha</h3>
-                            <p>Agar menjangkau lebih banyak pelanggan dan menaikkan branding usaha anda</p>
+                            <p>Agar Usaha Anda Dapat Menjangkau Lebih Banyak Pelanggan dan Meningkatkan Branding Secara Signifikan</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -97,7 +97,7 @@
                                 <a href="#" data-bs-target="#modaltiga" data-bs-toggle="modal"><i class="fa fa-cloud"></i></a>
                             </div>
                             <h3>Add on : Online Website</h3>
-                            <p>agar aplikasi website anda dapat diakses di internet dengan domain yang anda bisa sesuaikan</p>
+                            <p>Menyediakan Solusi Lengkap Agar Aplikasi Website Anda Dapat Diakses di Internet Secara Optimal.</p>
                         </div>
                     </div>
                 </div>
@@ -107,8 +107,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h3 class="text-light">Konsultasi gratis untuk membantu anda merancang website yang sesuai dengan kebutuhan anda</h3>
-                        <p class="text-light">Tarif terjangkau sesuai dengan kebutuhan website yang anda inginkan, jangan ragu untuk bertanya, kami siap merespon dengan senang hati.</p>
+                        <h3 class="text-light">Diskusikan Kebutuhan Anda dengan Kami untuk Merancang Website yang Tepat Sesuai Kebutuhan Anda. Tanpa Biaya Tambahan.</h3>
+                        <p class="text-light">Kami Menawarkan Tarif Terjangkau yang Disesuaikan dengan Kebutuhan Website Anda. Jangan Ragu untuk Menghubungi Kami, Dengan Senang Hati Akan Merespons Pertanyaan dan Membantu Anda Menyusun Solusi yang Ideal.</p>
                     </div>
                     <div class="col-lg-2"> <a class="btn btn-success btn-outline" style="color: white">Whatssapp kami</a> </div>
                 </div>
@@ -121,7 +121,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="modal-label">Website Untuk Tugas Kuliah / Skripsi</h4>
+                        <h4 class="modal-title" id="modal-label">Bimbingan Website Untuk Tugas Kuliah atau Skripsi</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
@@ -132,7 +132,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <p>Anda mahasiswa yang ingin membuat website untuk tugas akhir atau skripsi ? Kami siap membantu, akan kami buatkan dan jelaskan proses pembuatan nya, harga dapat di negosiasikan.. jangan ragu untuk bertanya :)</p>
+                                <p>Anda Seorang Mahasiswa yang akan melakukan Tugas Akhir atau Skripsi yang berkaitan pembuatan website informatika ? Kami Siap Membantu Anda! Layanan bimbingan Proses Pembuatan website Secara Terperinci. Jangan Ragu untuk Bertanya!</p>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="modal-label">Landing Page / Portal Website</h4>
+                        <h4 class="modal-title" id="modal-label">Landing Page atau Portal Website</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
@@ -158,7 +158,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <p>Ayo naikkan branding usaha anda dengan membuat website pribadi yang akan meningkatkan kepercayaan pelanggan anda, konsultasi kan sekarang :)</p>
+                                <p>Tingkatkan Branding Usaha Anda dengan Membangun Website Pribadi yang Mampu Meningkatkan Kepercayaan Pelanggan Anda. Dapatkan Konsultasi Gratis Sekarang dan Mulai Proses Pembuatan Website Anda!</p>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="modal-label">Layanan tambahan : Managed online website</h4>
+                        <h4 class="modal-title" id="modal-label">Layanan Managed Online Website</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
@@ -184,7 +184,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <p>Kami bantu online kan dan memelihara website anda agar tetap beroperasi stabil, konsultasi kan gratis :)</p>
+                                <p>Kami Membantu Anda Meng-online-kan dan Memelihara Website Anda Agar Tetap Beroperasi dengan Stabil. Nikmati Konsultasi Gratis untuk Mendapatkan Solusi Terbaik dan Dukungan dari Kami!</p>
                             </div>
                         </div>
                     </div>

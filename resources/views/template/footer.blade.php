@@ -15,8 +15,8 @@
                             <div class="widget">
                                 <div class="widget-title">Support</div>
                                 <ul class="list">
-                                    <li><a href="#">HelpDesk</a></li>
-                                    <li><a href="#">Documentation</a></li>
+                                    <li><a href="{{ route('index')}}">HelpDesk</a></li>
+                                    <li><a href="{{ route('index')}}">Documentation</a></li>
                                 </ul>
                             </div>
                         </div>
